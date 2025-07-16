@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Safenaija',
-  description: 'AI powered dahboard',
+  description: 'AI powered dasboard',
   creator: 'Charles Chijuka',
 }
 

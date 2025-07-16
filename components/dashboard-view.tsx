@@ -31,6 +31,7 @@ import { useRealtime } from "@/hooks/use-realtime"
 import { useAuth } from "@/components/auth-provider"
 import { RealtimeNotifications } from "@/components/realtime-notifications"
 import { SoundNotifications } from "@/components/sound-notifications"
+import  AIInsightsCard  from "@/components/AIInsights";
 import { ExportData } from "@/components/export-data"
 import { SystemHealth } from "@/components/system-health"
 import { KeyboardShortcuts } from "@/components/keyboard-shortcuts"
@@ -282,6 +283,7 @@ export function DashboardView() {
                   <Zap className="h-5 w-5 mr-2 text-yellow-400" />
                   AI Predictions
                 </CardTitle>
+               
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
@@ -312,6 +314,7 @@ export function DashboardView() {
                     <p className="text-xs text-slate-400">Weekend activity +45%</p>
                   </div>
                 </div>
+                {/* <AIInsightsCard /> */}
               </CardContent>
             </Card>
 
